@@ -1,0 +1,93 @@
+.modalRisk_wrapper,
+.modalControls_wrapper {
+    box-sizing: border-box;
+    width: 720px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.modalControls_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.modalControls_wrapper h3 {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+}
+
+.modalControls_wrapper h3,
+.modalRisk_wrapper h3 {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #000;
+}
+
+.modalRisk_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modalRisk_row_el {
+    width: calc(50% - 5px);
+    padding: 20px 0;
+    background: #2AD7D0;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFEFE;
+    cursor: pointer;
+}
+
+.modalControls_container .modalRisk_row_el {
+    background-color: #2D9CDB;
+}
+
+.modalRisk_row_el:last-child {
+    background-color: #FFA901;
+}
+
+.modalRisk_row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.modalControls_container .modalRisk_row {
+    width: calc(50% - 20px);
+    max-width: 500px;
+}
+
+.modalRisk_btn {
+    width: max-content;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 70px;
+    background: #F56666;
+    border-radius: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFEFE;
+    cursor: pointer;
+}
+
+.modalRisk_btn_wrapper {
+    width: 100%;
+}

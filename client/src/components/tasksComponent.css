@@ -1,0 +1,7 @@
+.tasksComponent_wrapper {
+    display: inline-flex;
+    justify-content: space-around;
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 50px;
+}

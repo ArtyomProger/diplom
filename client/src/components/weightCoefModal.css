@@ -1,0 +1,72 @@
+.weightCoefModal_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    z-index: 15;
+}
+
+.weightCoefModal_content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 90px 30px 30px 30px;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    background: #286E9F;
+    border-radius: 15px;
+}
+
+.weightCoefModal_close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.weightCoefModal_input {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.weightCoefModal_input > * {
+    max-width: 50%;
+}
+
+.weightCoefModal_input select,
+.weightCoefModal_input input {
+    max-height: 42px;
+    width: 100%;
+    background: #FFFDFD;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.weightCoefModal_btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 20px;
+    background: #F56666;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}

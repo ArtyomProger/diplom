@@ -1,0 +1,35 @@
+.header_wrapper {
+    background: linear-gradient(90deg, #2D9CDB -13.4%, #3D4F8F 110.24%);
+}
+
+.header {
+    background: rgba(25, 25, 39, 0.3);
+    padding: 25px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header_companyName p {
+    margin-left: 42px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.header_name {
+    margin-right: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.header_name p {
+    margin-right: 5px;
+    max-width: 240px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFEDED;
+}

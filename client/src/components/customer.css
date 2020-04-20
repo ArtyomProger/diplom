@@ -1,0 +1,35 @@
+.table {
+    width: 100%;
+    padding: 50px 10px;
+    z-index: 20;
+    font-weight: normal;
+    font-size: 12px;
+    height: 56px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.td1 {
+    background-color: #296c9c;
+}
+
+.table h3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.table table {
+    width: 100%;
+}
+
+.table_btn {
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+    padding: 7px;
+    width: 110px;
+    cursor: pointer;
+}

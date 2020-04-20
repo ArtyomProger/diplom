@@ -1,0 +1,145 @@
+.mainScreen_wrapper {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(264.59deg, #3E488B -6.05%, #3588AA 64.98%, #2AD7D0 151.58%), #C4C4C4;
+    font-family: Open Sans;
+    text-align: center;
+    display: flex;
+}
+
+.mainScreen_text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.mainScreen_title {
+    margin-bottom: 100px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 61px;
+    color: #F2F2F2;
+}
+
+.mainScreen_list > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainScreen_list div:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mainScreen_list img {
+    width: 100%;
+    max-width: 42px;
+    max-height: 42px;
+    margin-right: 10px;
+}
+
+.mainScreen_list p {
+    width: 411px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFCFC;
+}
+
+.mainScreen_img {
+    position: relative;
+}
+
+.mainScreen_img img {
+    position: absolute;
+    left: -110px;
+    height: 100%;
+    max-width: 1152px;
+    max-height: 859px;
+}
+
+.mainScreen_btn a {
+    margin-left: 52px;
+    padding: 20px 35px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #32D3CC;
+    border-radius: 18px;
+}
+
+@media (max-width: 1000px) and (max-height: 700px),
+(max-height: 600px) {
+    .mainScreen_text {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .mainScreen_title {
+        margin: 0;
+    }
+
+    .mainScreen_list p {
+        text-align: left;
+    }
+
+    .mainScreen_list img {
+        margin-right: 47px;
+    }
+
+    .mainScreen_btn a {
+        margin-left: 0;
+        margin-right: 44.5px;
+    }
+
+    .mainScreen_img {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .mainScreen_title {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        max-width: 350px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mainScreen_list {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        max-width: 220px;
+    }
+
+    .mainScreen_list div:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    
+    .mainScreen_list p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .mainScreen_list img {
+        margin-right: 20px;
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+    .mainScreen_btn a {
+        border-radius: 6px;
+        padding: 13px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-right: 0;
+    }
+}

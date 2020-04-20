@@ -1,0 +1,39 @@
+.leftNavbar_wrapper {
+    background: #383841;
+    height: 100%;
+    max-width: 310px;
+    width: 100%;
+    display: inline-block;
+    padding: 90px 40px 0 40px;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.leftNavbar_list>* {
+    display: flex;
+}
+
+.leftNavbar_list>*:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.leftNavbar_img {
+    margin-right: 24px;
+    width: 40px;
+}
+
+.leftNavbar_img img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 24px;
+    max-height: 24px;
+    height: 100%;
+}
+
+.leftNavbar_list p {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
