@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-style: normal;
+    src: url("fonts/Montserrat-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    src: url("fonts/Montserrat-Medium.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    src: url("fonts/Montserrat-Bold.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    src: url("fonts/OpenSans-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: normal;
+    src: url("fonts/OpenSans-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url("fonts/Roboto-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    src: url("fonts/Roboto-Bold.ttf") format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#root,
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+.flexWrapper {
+    display: flex;
+    height: calc(100% - 146px);
+}
+
+.scrollableContainer {
+    overflow-y: scroll;
+    height: 100%;
+}
